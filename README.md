@@ -1,8 +1,6 @@
-# React + Vite
+# ZotNostic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+The Symptom Checker Web Application is a simple, user-friendly tool designed to help individuals identify potential illnesses based on their symptoms. By leveraging manually curated symptom-diagnosis mappings, the app provides users with a list of potential conditions and an estimated accuracy percentage based on available data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal of this application is to empower users with preliminary health insights. However, it is important to note that the app is not a substitute for professional medical advice.
