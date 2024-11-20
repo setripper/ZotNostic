@@ -1,10 +1,10 @@
 import React from 'react'
-import leftSide from './components/leftSide/leftSide'
+import landingPage from './components/landingPage/landingPage'
 
 const App = () => {
   return (
     <>
-      <leftSide/>
+      <landingPage />
     </>
   )
 }
