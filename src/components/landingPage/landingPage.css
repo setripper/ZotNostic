@@ -1,8 +1,57 @@
-
-
-
 .LandingPage {
-    min-height: 1000vh;
-    min-width: 100vw;
-    background-color: rgb(231, 198, 198);
+    height: 100vh; 
+    width: 100vw; 
+    background-color: rgb(231, 198, 198); 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding-top: 20px; 
+}
+
+.leftTop {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    width: 100%; 
+}
+
+.typing-effect {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.typing-effect span {
+    display: inline-block;
+    opacity: 0;
+    animation: typing 1s steps(1) forwards;
+}
+
+.typing-effect span:nth-child(1) { animation-delay: 0s; }
+.typing-effect span:nth-child(2) { animation-delay: 0.1s; }
+.typing-effect span:nth-child(3) { animation-delay: 0.2s; }
+.typing-effect span:nth-child(4) { animation-delay: 0.3s; }
+.typing-effect span:nth-child(5) { animation-delay: 0.4s; }
+.typing-effect span:nth-child(6) { animation-delay: 0.5s; }
+.typing-effect span:nth-child(7) { animation-delay: 0.6s; }
+.typing-effect span:nth-child(8) { animation-delay: 0.7s; }
+.typing-effect span:nth-child(9) { animation-delay: 0.8s; }
+.typing-effect span:nth-child(10) { animation-delay: 0.9s; }
+
+@keyframes typing {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+
+
 }

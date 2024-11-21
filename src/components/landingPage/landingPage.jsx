@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import './LandingPage.css'
 
 function LandingPage() {
@@ -10,9 +10,19 @@ function LandingPage() {
         <div className='leftSide'>
             
             <div className='leftTop'>
-              <h1>ZotNostic</h1>
-            </div>
-
+              <h1 className="typing-effect">
+              <span>Z</span>
+              <span>o</span>
+              <span>t</span>
+              <span>N</span>
+              <span>o</span>
+              <span>s</span>
+              <span>t</span>
+              <span>i</span>
+              <span>c</span>
+              <span>.</span>
+            </h1>
+        </div>
             <div className='leftBottom'>
                 
             </div>
