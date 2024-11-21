@@ -1,5 +1,6 @@
-// import React from 'react'
+import React from 'react'
 import './LandingPage.css'
+
 
 function LandingPage() {
   return (
@@ -33,11 +34,11 @@ function LandingPage() {
         <div className='rightSide'>
 
             <div className='rightTop'>
-
+              <h1>Get Started</h1>
             </div>
 
             <div className='rightBottom'>
-
+              
             </div>
 
         </div>

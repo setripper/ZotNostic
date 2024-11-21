@@ -1,8 +1,11 @@
 import React from 'react'
+import './DiagnosePage.css'
 
 function DiagnosePage() {
   return (
-    <div>DiagnosePage</div>
+    <div className='Diagnose'>
+        <h1>rizz</h1>
+    </div>
   )
 }
 
