@@ -12,8 +12,8 @@ function LandingPage() {
             <div className='leftTop'>
               <h1 className="typing-effect">
               <span>Z</span>
-              <span>o</span>
-              <span>t</span>
+              <span>O</span>
+              <span>T</span>
               <span>N</span>
               <span>o</span>
               <span>s</span>
@@ -24,7 +24,8 @@ function LandingPage() {
             </h1>
         </div>
             <div className='leftBottom'>
-                
+                <h3>ZOTNostic is a simple, user-friendly tool designed to help individuals identify potential illnesses based on their symptoms. By leveraging manually curated symptom-diagnosis mappings, the app provides users with a list of potential conditions and an estimated accuracy percentage based on available data.
+                  The goal of this application is to empower users with preliminary health insights. However, it is important to note that the app is not a substitute for professional medical advice.</h3>
             </div>
 
         </div>

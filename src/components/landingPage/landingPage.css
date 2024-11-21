@@ -3,10 +3,15 @@
     width: 100vw; 
     background-color: rgb(231, 198, 198); 
     display: flex;
-    flex-direction: column; 
     align-items: center; 
     justify-content: flex-start; 
-    padding-top: 20px; 
+}
+
+.leftSide {
+    height: 100vh;
+    width: 60vw;
+    background-color: rgb(190, 216, 228);
+    padding: 100px
 }
 
 .leftTop {
@@ -15,12 +20,27 @@
     align-items: center; 
     text-align: center; 
     width: 100%; 
+    height: 40vh;
+    padding-top: 25vh;
 }
 
+.leftBottom {
+    font-size: 1.3rem;
+    color:#ffffff;
+    text-align: center;
+}
+
+.rightSide {
+    height: 100vh;
+    width: 40vw;
+    background-color: rgb(255, 255, 255);
+}
+
+
 .typing-effect {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2.5rem;
-    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: #fff4eb;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
@@ -34,15 +54,15 @@
 }
 
 .typing-effect span:nth-child(1) { animation-delay: 0s; }
-.typing-effect span:nth-child(2) { animation-delay: 0.1s; }
-.typing-effect span:nth-child(3) { animation-delay: 0.2s; }
-.typing-effect span:nth-child(4) { animation-delay: 0.3s; }
-.typing-effect span:nth-child(5) { animation-delay: 0.4s; }
-.typing-effect span:nth-child(6) { animation-delay: 0.5s; }
-.typing-effect span:nth-child(7) { animation-delay: 0.6s; }
-.typing-effect span:nth-child(8) { animation-delay: 0.7s; }
-.typing-effect span:nth-child(9) { animation-delay: 0.8s; }
-.typing-effect span:nth-child(10) { animation-delay: 0.9s; }
+.typing-effect span:nth-child(2) { animation-delay: 0.2s; }
+.typing-effect span:nth-child(3) { animation-delay: 0.4s; }
+.typing-effect span:nth-child(4) { animation-delay: 0.6s; }
+.typing-effect span:nth-child(5) { animation-delay: 0.8s; }
+.typing-effect span:nth-child(6) { animation-delay: 1s; }
+.typing-effect span:nth-child(7) { animation-delay: 1.2s; }
+.typing-effect span:nth-child(8) { animation-delay: 1.4s; }
+.typing-effect span:nth-child(9) { animation-delay: 1.6s; }
+.typing-effect span:nth-child(10) { animation-delay: 1.8s; }
 
 @keyframes typing {
     0% {
