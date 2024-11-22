@@ -1,5 +1,6 @@
 import React from 'react'
 import './LandingPage.css'
+import { Link } from 'react-router-dom'
 
 
 function LandingPage() {
@@ -38,7 +39,10 @@ function LandingPage() {
             </div>
 
             <div className='rightBottom'>
-              
+              <ul>
+                <li><a href = "/diagnose">Diagnose Me</a></li>
+                <li><a href = "/">About Us</a></li>
+              </ul>
             </div>
 
         </div>

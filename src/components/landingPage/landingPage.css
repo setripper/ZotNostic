@@ -40,13 +40,33 @@
 .rightTop {
     font-size: 1rem;
     text-align: center;
-    height: 50vh;
+    height: 40vh;
     padding-top: 35vh;
 }
 
-.rightBottom button {
-    border-radius: 5px;
+.rightBottom {
+   
+    height: 60vh;
+    text-align: center;
     
+    
+
+}
+
+.rightBottom ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.rightBottom ul a{
+    display: flex;
+    text-decoration: none;
+    background-color: rgb(204, 111, 111);
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 5px;
+    font-size: 24px;
 }
 
 
