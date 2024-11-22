@@ -8,17 +8,17 @@ export const Context = createContext();
 const ContextProvider = (props) => {
 
 
-   const[input, setInput] = UseState("");
-   const [recentPrompt, setRecentPrompt] = useState("");
-   const [prevPrompts, setPrevPrompts] = useState([]);
-   const [showResult, setShowResult] = useState(false);
-   const [loading, setLoading] = useState(false);
-   const [resultData, setResultData] = useState("");
+    const [input, setInput] = UseState("");
+    const [recentPrompt, setRecentPrompt] = useState("");
+    const [prevPrompts, setPrevPrompts] = useState([]);
+    const [showResult, setShowResult] = useState(false);
+    const [loading, setLoading] = useState(false);
+    const [resultData, setResultData] = useState("");
 
 
 
 
-   const onSent = async (prompt) => {
+    const onSent = async (prompt) => {
        setResultData("")
        setLoading(true)
        setShowResult(true)
@@ -26,15 +26,25 @@ const ContextProvider = (props) => {
        setResultData(response)
        setLoading(false)
        setInput("")
-   }
-
-
-   onSent("test prompt: what is 2 + 2")
-
+    }
 
    const contextValue = {
-      
+        prevPrompts,
+        setPrevPrompts,
+        onSent,
+        setRecentPrompt,
+        recentPrompt,
+        showResult,
+        loading,
+        resultData,
+        input,
+        setInput,
    }
+
+
+   //replace the argument with the user input
+   //onSent("test prompt: what is 2 + 2")
+
 
 
    return (

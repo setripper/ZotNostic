@@ -26,27 +26,27 @@
 
 .leftBottom {
     font-size: 1.3rem;
-    color:#ffffff;
+    color:#fff4eb;;
     text-align: center;
 }
 
 .rightSide {
     height: 100vh;
     width: 40vw;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff4eb;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .rightTop {
     font-size: 1rem;
     text-align: center;
-    height: 40vh;
-    padding-top: 35vh;
+    height: 50vh;
+    padding-top: 45vh;
 }
 
 .rightBottom {
    
-    height: 60vh;
+    height: 50vh;
     text-align: center;
     padding-top: 1.5vh;
 
@@ -104,6 +104,8 @@
 .typing-effect span:nth-child(8) { animation-delay: 1.4s; }
 .typing-effect span:nth-child(9) { animation-delay: 1.6s; }
 .typing-effect span:nth-child(10) { animation-delay: 1.8s; }
+.typing-effect span:nth-child(11) { animation-delay: 2s; }
+
 
 @keyframes typing {
     0% {
@@ -112,7 +114,40 @@
     100% {
         opacity: 1;
     }
-
-
-
 }
+
+
+@keyframes fade-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+.fadeUp {
+    animation-delay: 5s;
+    animation: fade-up 3s;
+}
+
+.fadeDown {
+    animation: fade-down 1s;
+}
+

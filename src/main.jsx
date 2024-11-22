@@ -7,6 +7,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import LandingPage from './components/landingPage/landingPage.jsx'
 import DiagnosePage from './components/diagnosePage/DiagnosePage.jsx'
 
+//import ContextProvider from './backend/Context.jsx'
+
+
 const router = createBrowserRouter([
   
   {

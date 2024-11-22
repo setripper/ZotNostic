@@ -26,7 +26,7 @@ function LandingPage() {
             </h1>
         </div>
             <div className='leftBottom'>
-                <h3>ZOTNostic is a simple, user-friendly tool designed to help individuals identify potential illnesses based on their symptoms. By leveraging manually curated symptom-diagnosis mappings, the app provides users with a list of potential conditions and an estimated accuracy percentage based on available data.
+                <h3 className = 'fadeUp'>ZOTNostic is a simple, user-friendly tool designed to help individuals identify potential illnesses based on their symptoms. By leveraging manually curated symptom-diagnosis mappings, the app provides users with a list of potential conditions and an estimated accuracy percentage based on available data.
                   The goal of this application is to empower users with preliminary health insights. However, it is important to note that the app is not a substitute for professional medical advice.</h3>
             </div>
 
@@ -35,11 +35,11 @@ function LandingPage() {
         <div className='rightSide'>
 
             <div className='rightTop'>
-              <h1>Get Started</h1>
+              <h1 className = 'fadeDown'>Get Started</h1>
             </div>
 
             <div className='rightBottom'>
-              <ul>
+              <ul className = 'fadeUp'>
                 <li><a href = "/diagnose">Diagnose</a></li>
                 <li><a href = "/">About Us</a></li>
               </ul>
