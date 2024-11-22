@@ -44,7 +44,7 @@ const DiagnosePage = () => {
               <p>Suggest tips on how to recover quickly</p>
             </div>
             <div className="card">
-              <p>Suggest a healthy meal to eat while sick</p>
+              <p>Enter the symptoms that you are expierencing</p>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ const DiagnosePage = () => {
           </div>
 
           <p className="bottom-info">
-            Disclaimer tag about the information we type in
+            it is important to note that ZOTNostic is not a substitute for professional medical advice.
           </p>
         </div>
       </div>

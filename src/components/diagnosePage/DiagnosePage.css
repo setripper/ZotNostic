@@ -101,3 +101,21 @@
     margin: 15px auto;
     text-align: center;
 }
+
+.searchbox button{
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: transparent;
+    
+
+}
+
+.searchbox button:hover{
+    background-color: rgb(190, 216, 228);
+    transform: translateY(-1px);
+}
+
