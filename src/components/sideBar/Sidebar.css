@@ -45,7 +45,7 @@
     padding: 10px 15px;
     border-radius: 50px;
     font-size: 14px;
-    color: #333; /* Ensure color is visible */
+    color: #333; 
     cursor: pointer;
 }
 
@@ -57,7 +57,8 @@
 .sidebar .recent-title {
     margin-top: 30px;
     margin-bottom: 20px;
-    color: #000; /* Update title color */
+    color: #000; 
+    font-weight: bold;
 }
 
 .sidebar .recent-entry {
@@ -66,14 +67,19 @@
     gap: 10px;
     padding: 10px;
     padding-right: 40px;
-    border-radius: 50px;
-    color: #333; /* Ensure text is visible in recent entries */
+    border-radius: 10px;
+    font-size: 14px; 
+    color: #000; 
+    background-color: rgba(255, 255, 255, 0.8); 
     cursor: pointer;
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
 }
 
 .sidebar .recent-entry:hover {
-    color: #000; /* Change color to black when hovered */
-    background-color: rgb(184, 205, 212);
+    background-color: rgb(184, 205, 212); 
+    color: #000; 
 }
 
 .sidebar .bottom {
@@ -84,9 +90,9 @@
 .sidebar .bottom-item {
     padding-right: 10px;
     cursor: pointer;
-    color: #333; /* Update bottom item color */
+    color: #333; 
 }
 
 .sidebar .bottom-item:hover {
-    color: #000; /* Highlight when hovered */
+    color: #000; 
 }

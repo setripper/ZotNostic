@@ -26,8 +26,9 @@ function SideBar({ prompts }) {
             prompts.map((prompt, index) => (
               <div key={index} className="recent-entry">
                 {extended ? <img src={assets.message_icon} alt="" /> : null}
-                {}
-                <p>{prompt.split(' ').slice(0, 3).join(' ')}...</p>
+                <p>
+                  {prompt.split(' ').slice(0, 3).join(' ')}... {}
+                </p>
               </div>
             ))
           ) : (
