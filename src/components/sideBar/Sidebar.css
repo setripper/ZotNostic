@@ -7,7 +7,6 @@
     padding: 25px 15px;
     width: 5vw;
     transition: width 0.3s ease-in-out;
-    
 }
 
 .sidebar.extended {
@@ -17,14 +16,14 @@
 .sidebar p {
     visibility: hidden;
     opacity: 0;
+    color: #333; 
     transition: opacity 0.3s ease-in-out, visibility 0s 0.3s; 
 }
 
 .sidebar.extended p {
-
     visibility: visible;
     opacity: 1;
-    
+    color: #000; 
 }
 
 .sidebar img {
@@ -37,7 +36,7 @@
     cursor: pointer;
 }
 
-.sidebar .new-diagnostic{
+.sidebar .new-diagnostic {
     margin-top: 50px;
     display: inline-flex;
     align-items: center;
@@ -46,7 +45,7 @@
     padding: 10px 15px;
     border-radius: 50px;
     font-size: 14px;
-    color: grey;
+    color: #333; /* Ensure color is visible */
     cursor: pointer;
 }
 
@@ -58,6 +57,7 @@
 .sidebar .recent-title {
     margin-top: 30px;
     margin-bottom: 20px;
+    color: #000; /* Update title color */
 }
 
 .sidebar .recent-entry {
@@ -67,12 +67,12 @@
     padding: 10px;
     padding-right: 40px;
     border-radius: 50px;
-    color: rgb(38, 35, 35);
+    color: #333; /* Ensure text is visible in recent entries */
     cursor: pointer;
 }
 
 .sidebar .recent-entry:hover {
-    color:black;
+    color: #000; /* Change color to black when hovered */
     background-color: rgb(184, 205, 212);
 }
 
@@ -84,4 +84,9 @@
 .sidebar .bottom-item {
     padding-right: 10px;
     cursor: pointer;
+    color: #333; /* Update bottom item color */
+}
+
+.sidebar .bottom-item:hover {
+    color: #000; /* Highlight when hovered */
 }
