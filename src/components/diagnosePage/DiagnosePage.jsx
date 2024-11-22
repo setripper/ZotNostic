@@ -43,7 +43,7 @@ const DiagnosePage = () => {
 
       <div className = "main-bottom">
         <div className="searchbox">
-          <input type ="text" placeholder = "enter your symptoms"></input>
+          <input type ="text" placeholder = "Enter your symptoms"></input>
           <div>
             
           </div>
