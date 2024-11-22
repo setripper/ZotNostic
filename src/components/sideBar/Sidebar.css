@@ -5,6 +5,26 @@
     justify-content: space-between;
     background-color: rgb(190, 216, 228);
     padding: 25px 15px;
+    width: 5vw;
+    transition: width 0.3s ease-in-out;
+    
+}
+
+.sidebar.extended {
+    width: 12vw;
+}
+
+.sidebar p {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, visibility 0s 0.3s; 
+}
+
+.sidebar.extended p {
+
+    visibility: visible;
+    opacity: 1;
+    
 }
 
 .sidebar img {
