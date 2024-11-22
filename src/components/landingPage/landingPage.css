@@ -48,27 +48,35 @@
    
     height: 60vh;
     text-align: center;
-    
-    
+    padding-top: 1.5vh;
 
 }
 
 .rightBottom ul{
     display: flex;
     list-style-type: none;
+    justify-content: center;
     
 }
 
 .rightBottom ul a{
     display: flex;
     text-decoration: none;
-    background-color: rgb(204, 111, 111);
-    border-radius: 5px;
-    padding: 5px 20px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 30px; 
     margin: 5px;
-    font-size: 24px;
+    font-size: 16px; 
+    color: white;
+    justify-content: center; 
+    align-items: center; 
 }
 
+
+.rightBottom ul a:hover{
+    
+    background-color: rgb(103, 109, 111);
+}
 
 .typing-effect {
     font-family: Arial, Helvetica, sans-serif;

@@ -40,7 +40,7 @@ function LandingPage() {
 
             <div className='rightBottom'>
               <ul>
-                <li><a href = "/diagnose">Diagnose Me</a></li>
+                <li><a href = "/diagnose">Diagnose</a></li>
                 <li><a href = "/">About Us</a></li>
               </ul>
             </div>
