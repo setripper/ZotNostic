@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import './DiagnosePage.css';
 import SideBar from '../sideBar/SideBar';
 
+//import { Context } from '../../backend/Context'
+
+
+
+
 const DiagnosePage = () => {
   const [prompts, setPrompts] = useState([]); 
   const [currentInput, setCurrentInput] = useState(''); 
