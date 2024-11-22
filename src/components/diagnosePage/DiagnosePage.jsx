@@ -12,6 +12,7 @@ const DiagnosePage = () => {
   return (
     <div className='Diagnose'> 
         <SideBar/>
+
     </div>
   )
 }
