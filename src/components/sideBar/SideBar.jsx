@@ -5,14 +5,16 @@ import './SideBar.css'
 function SideBar() {
   return (
     <div className='sidebar'>
+
         <div className='top'>
 
-            <img src = {assets.menu_icon} alt = ""/>
+            <img className = "menu" src = {assets.menu_icon} alt = ""/>
 
-            <div className='newChat'>
+            <div className='new-diagnostic'>
                 <img src = {assets.plus_icon} alt = " "/>
                 <p>New Diagnostic</p>
             </div>
+
             <div className='recent'>
                 <p className='recent-title'>Recent</p>
                 <div className="recent-entry">
@@ -31,7 +33,7 @@ function SideBar() {
             </div>
 
             <div className="bottom-item recent-entry">
-                <img src = {assets.history_icon_icon} alt = ""/>
+                <img src = {assets.history_icon} alt = ""/>
                 <p>Activity</p>
             </div>
 
