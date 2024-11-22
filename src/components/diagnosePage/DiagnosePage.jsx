@@ -26,7 +26,7 @@ const DiagnosePage = () => {
 
         <div className = "cards">
           <div className="card">
-            <p>Suggest a healthy meal to eat while sick</p>
+            <p>Suggest healthy meal to eat while sick</p>
           </div>
           <div className="card">
             <p>Recommed me a nearby doctor to see</p>
