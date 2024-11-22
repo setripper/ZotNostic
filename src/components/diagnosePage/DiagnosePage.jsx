@@ -7,6 +7,7 @@ function DiagnosePage() {
     <div className='Diagnose'>
         
         <SideBar/>
+
     </div>
   )
 }
