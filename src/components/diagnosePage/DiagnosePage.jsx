@@ -32,8 +32,8 @@ const DiagnosePage = () => {
 
         <div className="main-container">
           <div className="greet">
-            <p><span>Hello, User.</span></p>
-            <p>How can I help you</p>
+            <p><span>Hello, </span></p>
+            <p>Please enter any health problems you are currently experiencing</p>
           </div>
 
           <div className="cards">
@@ -54,7 +54,7 @@ const DiagnosePage = () => {
 
         {response && (
           <div className="response-box">
-            <p><strong>Response:</strong> {response}</p>
+            <p><strong>ZOTNostic: </strong> {response}</p>
           </div>
         )}
 

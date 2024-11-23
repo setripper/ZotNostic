@@ -124,9 +124,10 @@
 
 .response-box {
     margin-top: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px  80px;
+    background-color: #f0f4f9;
     border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
