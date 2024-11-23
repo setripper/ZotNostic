@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size:22px;
+    font-size:25px;
     padding:20px;
     color: black;
     width: 40px;
@@ -51,15 +51,20 @@
     border-radius: 10px;
     position: relative;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+
 }
 
 .Diagnose .card p{
     color: #585858;
     font-size: 17px;
+
 }
 
 .Diagnose .card:hover{
     background-color: rgb(190, 216, 228);
+    transform: translateY(-1px);
+
 }
 
 .main-bottom{
@@ -116,6 +121,6 @@
 
 .searchbox button:hover{
     background-color: rgb(190, 216, 228);
-    transform: translateY(-1px);
+    transform: translateY(-1.5px);
 }
 
