@@ -9,12 +9,15 @@ import call_gemini from '../../backend/GeminiApi'
 const DiagnosePage = () => {
   const [prompts, setPrompts] = useState([]); 
   const [currentInput, setCurrentInput] = useState(''); 
+  const [response, setResponse] = useState('');
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (currentInput.trim()) {
       setPrompts((prevPrompts) => [currentInput.trim(), ...prevPrompts]);
       setCurrentInput(''); 
-      call_gemini(currentInput)
+
+      const result = await call_gemini(currentInput);
+      setResponse(result);
     }
   };
 
@@ -48,6 +51,12 @@ const DiagnosePage = () => {
             </div>
           </div>
         </div>
+
+        {response && (
+          <div className="response-box">
+            <p><strong>Response:</strong> {response}</p>
+          </div>
+        )}
 
         <div className="main-bottom">
           <div className="searchbox">
