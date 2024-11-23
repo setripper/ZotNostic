@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import './DiagnosePage.css';
 import SideBar from '../sideBar/SideBar';
 
-//import { Context } from '../../backend/Context'
-
+import call_gemini from '../../backend/GeminiApi'
 
 
 
@@ -15,6 +14,7 @@ const DiagnosePage = () => {
     if (currentInput.trim()) {
       setPrompts((prevPrompts) => [currentInput.trim(), ...prevPrompts]);
       setCurrentInput(''); 
+      call_gemini(currentInput)
     }
   };
 
